@@ -1,0 +1,17 @@
+name = "EchelleCalibration"
+uuid = "e1e08aa5-c21b-4617-bd78-8823b5cb44ca"
+authors = ["Bryson Cale <bryson.cale1@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+Echelle = "0452828c-43f4-4a88-ad3b-1639e58135de"
+FindPeaks1D = "d8961e24-b28b-4efb-8e50-1c680b9a7431"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+Infiltrator = "5903a43b-9cc3-4c30-8d17-598619ec4e9b"
+LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+NaNStatistics = "b946abbf-3ea7-4610-9019-9858bfdeaf2d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
