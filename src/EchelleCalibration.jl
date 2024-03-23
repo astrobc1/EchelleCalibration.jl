@@ -1,7 +1,5 @@
 module EchelleCalibration
 
-using Pkg
-
 using NaNStatistics
 using LsqFit
 using Infiltrator
@@ -11,12 +9,6 @@ using Polynomials
 using ImageFiltering
 using PyCall
 using StatsBase
-
-using Pkg
-Pkg.develop(path="/Users/cale/Codes/JuliaProjects/Echelle/")
-
-const SPEED_OF_LIGHT_MPS = 299792458.0
-
 
 include("utils.jl")
 include("doppler.jl")
